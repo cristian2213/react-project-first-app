@@ -1,0 +1,23 @@
+■ creacion de app: 
+    npx create-react-app my-app
+    cd my-app
+    npm start => lanza el servidor
+
+■ Siempre crear una carpeta para los componentes:
+    .Los componentes se nombran siempre en mayuscula la primera letra
+
+■ Siempre que se retorne más de un elemento se debe hacer mediante un contenedor div o usar un fragment sino se quiere crear mas codigo html    
+
+■ Para pasar informacion del componente padre al componente hijo se hace con props.
+
+■ Para imprimir datos se usan las llaves {} adentro de estas se puede hacer uso de javascript
+
+■ Si se usan arrow function en los componentes, se puede quitar la palabra return que el componente va a seguir funcionando, lo unico malo de este tipo de componentes es que no se puden escribir codigo javascript, pero si se declara las llaves y la palabra return va a funcionar correctamente
+
+■ Para poner clases en el html se usa el className
+
+■ Todo lo que sea interactivo en una pagina va hacer uso del useState
+
+■ crear healpers para que el codigo de los componentes no sea tan extenso, los heralpers son funciones en un archivo aparte que despues se importan en el componente a ser utilizado
+
+■ Carga condicional de componentes: permite cargar distintos componentes de acuerdo con una condicion
